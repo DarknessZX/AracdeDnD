@@ -1,6 +1,7 @@
-bullet1 = instance_create_layer(obj_Player.x,obj_Player.y,"Instances",obj_Bullet);
-bullet2 = instance_create_layer(obj_Player.x,obj_Player.y,"Instances",obj_Bullet);
-bullet3 = instance_create_layer(obj_Player.x,obj_Player.y,"Instances",obj_Bullet);
+
+bullet1 = instance_create_layer(obj_Player.x,obj_Player.y,"Instances",argument0);
+bullet2 = instance_create_layer(obj_Player.x,obj_Player.y,"Instances",argument0);
+bullet3 = instance_create_layer(obj_Player.x,obj_Player.y,"Instances",argument0);
 
 with (bullet1) {
 	direction = 60;
